@@ -78,13 +78,13 @@ The testing instructions are in [TEST.md](TEST.md).
 Here are ImageNet-1k trained weights for four model instantiations. All models are trained for 300 epochs with DeiT recipe. 
 Please follow the testing script to evaluate them on out-of-distribution dataset.
 
-|                                       |                                          Pretrained Model                                           | ImageNet | Stylized-ImageNet | ImageNet-C | ImageNet-R |ImageNet-Sketch |
-| ------------------------------------- | :-------------------------------------------------------------------------------------------------: | :------: | :---------------: | :--------: | :--------: |:-------------: |
-| DeiT-S                                | [download link](https://dl.fbaipublicfiles.com/deit/deit_small_patch16_224-cd65a155.pth)            |   79.8   |       16.2        |    42.8    |    41.9    |      29.1      |
-| Robust-ResNet-DW-Small                | [download link](https://drive.google.com/file/d/1cbS3NGkkzKw2Uhq8ATMbsoGjIx8zhwgv/view?usp=sharing) |   79.4   |       18.6        |    42.3    |    45.9    |      33.0      |
-| Robust-ResNet-Inverted-DW-Small       | [download link](https://drive.google.com/file/d/1g551TsZmVrSZ4BXje9RcT7gG_UjjFQmO/view?usp=sharing) |   79.0   |       19.5        |    42.1    |    45.9    |      32.8      |
-| Robust-ResNet-Up-Inverted-DW-Small    | [download link](https://drive.google.com/file/d/1lQ0zPqO6nmtXWt5r9d-M4k_GHVeW41Qy/view?usp=sharing) |   79.2   |       20.2        |    40.9    |    48.7    |      35.2      |
-| Robust-ResNet-Down-Inverted-DW-Small  | [download link](https://drive.google.com/file/d/1gZVclPJXT50F6iAJHUv8Z6wG6C0ZhXds/view?usp=sharing) |   79.9   |       19.3        |    41.6    |    46.0    |      32.8      |
+|                                       |                                          Pretrained Model                                           | ImageNet &#8593; | Stylized-ImageNet &#8593; | ImageNet-C &#8595; | ImageNet-R &#8593; | ImageNet-Sketch &#8593; |
+| ------------------------------------- | :-------------------------------------------------------------------------------------------------: | :--------------: | :-----------------------: | :----------------: | :----------------: |:----------------------: |
+| DeiT-S  (Official Checkpoint)         | [download link](https://github.com/facebookresearch/deit)                                           |       79.8       |           16.2            |        42.8        |        41.9        |          29.1           |
+| Robust-ResNet-DW-Small                | [download link](https://drive.google.com/file/d/1cbS3NGkkzKw2Uhq8ATMbsoGjIx8zhwgv/view?usp=sharing) |       79.4       |           18.6            |        42.3        |        45.9        |          33.0           |
+| Robust-ResNet-Inverted-DW-Small       | [download link](https://drive.google.com/file/d/1g551TsZmVrSZ4BXje9RcT7gG_UjjFQmO/view?usp=sharing) |       79.0       |           19.5            |        42.1        |        45.9        |          32.8           |
+| Robust-ResNet-Up-Inverted-DW-Small    | [download link](https://drive.google.com/file/d/1lQ0zPqO6nmtXWt5r9d-M4k_GHVeW41Qy/view?usp=sharing) |       79.2       |           20.2            |        40.9        |        48.7        |          35.2           |
+| Robust-ResNet-Down-Inverted-DW-Small  | [download link](https://drive.google.com/file/d/1gZVclPJXT50F6iAJHUv8Z6wG6C0ZhXds/view?usp=sharing) |       79.9       |           19.3            |        41.6        |        46.0        |          32.8           |
 
 
 
