@@ -99,7 +99,7 @@ And this work is supported by a gift from Open Philanthropy, TPU Research Cloud 
 ```
 @article{wang2022robustcnn,
   title   = {Can CNNs Be More Robust Than Transformers?}, 
-  author  = {Zeyu Wang and Yutong Bai and Yuyin Zhou and Cihang Xie}},
+  author  = {Zeyu Wang and Yutong Bai and Yuyin Zhou and Cihang Xie},
   journal = {arXiv preprint arXiv:2206.03452},
   year    = {2022},
 }
