@@ -1,5 +1,5 @@
 # Can CNNs Be More Robust Than Transformers?  
-This is a PyTorch/PyTorch-XLA implementation of the paper  [Can CNNs Be More Robust Than Transformers?](https://arxiv.org/abs/2206.03452).
+This is a PyTorch/PyTorch-XLA implementation of the ICLR'23 paper  [Can CNNs Be More Robust Than Transformers?](https://arxiv.org/abs/2206.03452).
 It can run on both GPU or TPU devices (see [TRAIN](https://github.com/UCSC-VLAA/RobustCNN/blob/main/TRAIN.md)/[TEST](https://github.com/UCSC-VLAA/RobustCNN/blob/main/TEST.md) instructions).
 Our implementation is heavily based on the bits_and_tpu branch of [TIMM](https://github.com/rwightman/pytorch-image-models/tree/bits_and_tpu).
 
@@ -97,10 +97,10 @@ And this work is supported by a gift from Open Philanthropy, TPU Research Cloud 
 ## Citation
 
 ```
-@article{wang2022robustcnn,
-  title   = {Can CNNs Be More Robust Than Transformers?}, 
-  author  = {Wang, Zeyu and Bai, Yutong and Zhou, Yuyin and Xie, Cihang},
-  journal = {arXiv preprint arXiv:2206.03452},
-  year    = {2022},
+@inproceedings{wang2022robustcnn,
+  title     = {Can CNNs Be More Robust Than Transformers?}, 
+  author    = {Wang, Zeyu and Bai, Yutong and Zhou, Yuyin and Xie, Cihang},
+  booktitle = {International Conference on Learning Representations},
+  year      = {2023},
 }
 ```
